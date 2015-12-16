@@ -126,21 +126,21 @@ public final class ConstantString {
      * URL KEY
      */
 
-    public static final String URL_POST_LOGIN = "http://maccelogluinsaat.com/gts/logingtsclb.php";
-    public static final String URL_POST_REGISTER = "http://maccelogluinsaat.com/gts/registergtsclb.php";
-    public static final String URL_POST_PROFILIM = "http://maccelogluinsaat.com/gts/profilimgtsclb.php";
-    public static final String URL_POST_PROF_DUZENLE = "http://maccelogluinsaat.com/gts/prof_duzenlegtsclb.php";
-    public static final String URL_POST_SIFRE_DEGISTIR = "http://maccelogluinsaat.com/gts/sifre_degistirgtsclb.php";
-    public static final String URL_POST_SIFREMI_UNUTTUM = "http://maccelogluinsaat.com/gts/sifremailgonder/sifre_gondergtsclb.php";
-    public static final String ALYANS_DOWNLOAD_URL = "http://maccelogluinsaat.com/gts/alyansgtsclb.php";
-    public static final String FIRSATLAR_DOWNLOAD_URL = "http://maccelogluinsaat.com/gts/firsatlargtsclb.php";
-    public static final String HAYALET_DOWNLOAD_URL = "http://maccelogluinsaat.com/gts/hayaletgtsclb.php";
-    public static final String URL_POST_SEPET_SIPARIS_VER = "http://maccelogluinsaat.com/gts/sepetsiparisvergtsclb.php";
-    public static final String URL_POST_SIPARIS_VER = "http://maccelogluinsaat.com/gts/siparisvergtsclb.php";
-    public static final String URL_POST_SIPARIS_IPTAL_ET = "http://maccelogluinsaat.com/gts/siparissilgtsclb.php";
-    public static final String SIPARISLERIM_ONAY_BEKLEYEN_DOWNLOAD_URL = "http://maccelogluinsaat.com/gts/siparislerimgtsclb.php";
-    public static final String SIPARISLERIM_ONAYLANAN_DOWNLOAD_URL = "http://maccelogluinsaat.com/gts/onaylanansiparisgtsclb.php";
-    public static final String SIPARISLERIM_ESKI_DOWNLOAD_URL = "http://maccelogluinsaat.com/gts/eskisiparislergtsclb.php";
+     public static final String URL_POST_LOGIN = "WEBSERVİS_URL_GİRİLECEK";
+    public static final String URL_POST_REGISTER = "WEBSERVİS_URL_GİRİLECEK";
+    public static final String URL_POST_PROFILIM = "WEBSERVİS_URL_GİRİLECEK";
+    public static final String URL_POST_PROF_DUZENLE = "WEBSERVİS_URL_GİRİLECEK";
+    public static final String URL_POST_SIFRE_DEGISTIR = "WEBSERVİS_URL_GİRİLECEK";
+    public static final String URL_POST_SIFREMI_UNUTTUM = "WEBSERVİS_URL_GİRİLECEK";
+    public static final String ALYANS_DOWNLOAD_URL = "WEBSERVİS_URL_GİRİLECEK";
+    public static final String FIRSATLAR_DOWNLOAD_URL = "WEBSERVİS_URL_GİRİLECEK";
+    public static final String HAYALET_DOWNLOAD_URL = "WEBSERVİS_URL_GİRİLECEK";
+    public static final String URL_POST_SEPET_SIPARIS_VER = "WEBSERVİS_URL_GİRİLECEK";
+    public static final String URL_POST_SIPARIS_VER = "WEBSERVİS_URL_GİRİLECEK";
+    public static final String URL_POST_SIPARIS_IPTAL_ET = "WEBSERVİS_URL_GİRİLECEK";
+    public static final String SIPARISLERIM_ONAY_BEKLEYEN_DOWNLOAD_URL = "WEBSERVİS_URL_GİRİLECEK";
+    public static final String SIPARISLERIM_ONAYLANAN_DOWNLOAD_URL = "WEBSERVİS_URL_GİRİLECEK";
+    public static final String SIPARISLERIM_ESKI_DOWNLOAD_URL = "WEBSERVİS_URL_GİRİLECEK";
 
     /**
      * POST-GET KEY
