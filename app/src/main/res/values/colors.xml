@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="PrimaryColor">#2196F3</color>
+    <color name="PrimaryColorTrans">#802196F3</color>
+    <color name="PrimaryDarkColor">#1976D2</color>
+    <color name="color_indirim">#0097ff</color>
+    <color name="color_eski_fiyat">#e31d07</color>
+    <color name="trans_white">#80FFFFFF</color>
+    <color name="trans_grey">#40747272</color>
+
+    <color name="indigo_500">#3f51b5</color>
+    <color name="indigo_700">#303f9f</color>
+    <color name="cyan_500">#00bcd4</color>
+
+
+</resources>

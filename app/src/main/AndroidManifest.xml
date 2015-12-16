@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.clb.gumustakisepeti">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+
+    <application
+        android:name=".application.GumusTakiSepetiApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.Activity_Detay"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.ActivitySignUp"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ActivityLogin"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ActivityProfilim"
+            android:label="@string/profilim"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ActivityProfDuzenle"
+            android:label="@string/prof_duzenle"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.ActivitySifreDegistir"
+            android:label="@string/sifre_degistir"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.ActivitySifremiUnuttum"
+            android:label="@string/sifremi_unuttum"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ActivitySiparisVer"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.ActivitySepetSiparisVer"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ActivityOnayBekleyenSiparis"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.ActivityOnaylananSiparis"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ActivityEskiSiparis"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.Activity_Siparis_Detay"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+    </application>
+
+</manifest>

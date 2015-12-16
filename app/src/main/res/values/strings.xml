@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">Gümüş Takı Sepeti</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="navigation_item_1">Home</string>
+    <string name="navigation_item_2">Events</string>
+    <string name="alyans">Alyans</string>
+    <string name="anasayfa">Anasayfa</string>
+    <string name="hayaletKolye">Hayalet Kolye</string>
+    <string name="erkekYuzugu">Erkek Yüzüğü</string>
+    <string name="subheader">Subheader</string>
+    <string name="firsatlar">Fırsatlar</string>
+    <string name="siparislerim">Siparişlerim</string>
+    <string name="iletisim">İletişim</string>
+    <string name="closeDrawer">Navigation View</string>
+    <string name="openDrawer">Navigation View Closed</string>
+    <string name="opps">Opps!</string>
+    <string name="check_network_connection">İnternet Bağlantınızı Kontrol Ediniz !</string>
+    <string name="t_l">TL</string>
+    <string name="yukleniyor">Yükleniyor...</string>
+    <string name="hata_urun_goruntuleme">Ürün Görüntüleme Hatası!</string>
+    <string name="hata_ext">Beklenmeyen Hata:EXT</string>
+    <string name="btn_kayit_ol">Kayıt Ol</string>
+    <string name="ed_sifre">Şifre</string>
+    <string name="ed_email">Email</string>
+    <string name="ed_kullanici_adi">Kullanıcı Adı</string>
+    <string name="profilim">Profilim</string>
+    <string name="sifre_degistir">Şifre Değiştir</string>
+    <!--LATER-->
+    <string name="veri_yok">Veri Yok</string>
+    <string name="hata">Hata</string>
+    <string name="tamam">Tamam</string>
+    <string name="giris_yap">Giriş Yap</string>
+    <string name="giris_yapilmadi">Giriş Yapılmadı</string>
+    <string name="guncelleme_yapilmadi">Güncelleme Yapılamadı!</string>
+    <string name="sifre_gonderilemedi">Şifre Gönderilemedi!</string>
+    <string name="guncelleme">Güncelleme</string>
+    <string name="sonuc_basarili">Sonuç : Başarılı</string>
+    <string name="giris_yapiliyor">Giriş Yapılıyor...</string>
+    <string name="sifre_gonderiliyor">Şifre Gönderiliyor...</string>
+    <string name="guncelleme_yapiliyor">Güncelleme Yapılıyor...</string>
+    <string name="bilgileriniz_getiriliyor">Bilgileriniz Getiriliyor...</string>
+    <string name="bilgilendirme">Bilgilendirme</string>
+    <string name="mail_gonderildi">Şifreniz mail adresinize gönderilmiştir.</string>
+    <string name="cikis_yapildi">Çıkış Yapıldı</string>
+    <string name="kayit_islemi_gerceklestiriliyor">Kayıt İşleminiz Gerçekleştiriliyor...</string>
+    <string name="uyari_gerekli_alanlar_bos_olamaz">Gerekli Alanları Doldurunuz!!!\n</string>
+    <string name="uyari_kul_adi_bos_olamaz">Kullanıcı Adı Boş Olamaz!!!\n</string>
+    <string name="uyari_sifre_karakter_say_min">Şifre 6 Karakterden Az Olamaz!!!\n</string>
+    <string name="uyari_kul_adi_karakter_sayi_min">Kullanıcı Adı 4 Karakterden Az Olamaz!!!\n</string>
+    <string name="uyari_kul_adi_karakter_sayi_max">Kullanıcı Adı 15 Karakterden Fazla Olamaz!!!\n</string>
+    <string name="uyari_sifre_karakter_say_max">Şifre 15 Karakterden Fazla Olamaz!!!\n</string>
+    <string name="uyari_yanlis_email_format">Yanlış E-mail Formatı!!!\n</string>
+    <string name="uyari_turkce_karakter_kul_adi">Kullanıcı Adı Türkçe Karakter İçeremez!!!\n</string>
+    <string name="uyari_turkce_karakter_sifre">Şifre Türkçe Karakter İçeremez!!!\n</string>
+    <string name="sifreler_eslesmiyor">Şifreler Eşleşmiyor</string>
+
+
+    <!--ACTIVITY TITLE -->
+    <string name="hesap_olustur">Hesap Oluştur</string>
+    <string name="prof_duzenle">Profil Düzenle</string>
+    <string name="sifremi_unuttum">Şifremi Unuttum</string>
+    <string name="yeni_hesap_olustur">Yeni Hesap Oluştur</string>
+    <string name="tamamla">Tamamla</string>
+    <string name="yenile">Yenile</string>
+    <string name="sepetim">Sepetim</string>
+    <string name="av_tamamla">Alışverişi Tamamla</string>
+    <string name="siparisi_tamamla">Siparişi Tamamla</string>
+    <string name="iptal_et">İptal Et</string>
+
+</resources>

@@ -1,0 +1,198 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?colorPrimary"
+    android:fitsSystemWindows="true"
+    tools:context=".ActivitySifreDegistir">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/tool_bar" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            android:background="@color/PrimaryColor"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/lblHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Şifre Değiştir"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                android:textStyle="italic|bold" />
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.8">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginLeft="28dp"
+                    android:layout_marginRight="28dp"
+                    android:layout_marginTop="45dp"
+                    card_view:cardCornerRadius="3dp"
+                    card_view:cardElevation="5dp">
+
+                    <TextView
+                        android:id="@+id/prTxtKulAdi"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Kullanici Adı"
+                        android:textSize="20sp" />
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginLeft="28dp"
+                    android:layout_marginRight="28dp"
+                    android:layout_marginTop="9dp"
+                    card_view:cardCornerRadius="3dp"
+                    card_view:cardElevation="5dp">
+
+                    <TextView
+                        android:id="@+id/prTxtEmail"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="E-mail"
+                        android:textSize="20sp" />
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginLeft="28dp"
+                    android:layout_marginRight="28dp"
+                    android:layout_marginTop="9dp"
+                    card_view:cardCornerRadius="3dp"
+                    card_view:cardElevation="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/prTxtEskiSifre"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.7"
+                            android:text="Şifre"
+                            android:textSize="25sp" />
+
+                        <TextView
+                            android:id="@+id/prBtnSifreGoster"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.3"
+                            android:text="Şuan ki Şifreniz"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginRight="18dp"
+                    android:layout_marginTop="9dp"
+                    card_view:cardCornerRadius="3dp"
+                    card_view:cardElevation="5dp">
+
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/prTxtYeniSifre"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:hint="Yeni Şifre"
+                        android:inputType="textPassword"
+                        app:met_clearButton="true"
+                        app:met_floatingLabel="highlight"
+                        app:met_iconLeft="@drawable/password"
+                        app:met_iconPadding="0dp"
+                        app:met_maxCharacters="15"
+                        app:met_minCharacters="6"
+                        app:met_primaryColor="?colorAccent"
+                        app:met_singleLineEllipsis="true"
+                        app:met_textColorHint="#726d6d" />
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginRight="18dp"
+                    android:layout_marginTop="9dp"
+                    card_view:cardCornerRadius="3dp"
+                    card_view:cardElevation="5dp">
+
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/prTxtYeniSifreTekrar"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:hint="Yeni Şifre Tekrar"
+                        android:inputType="textPassword"
+                        app:met_clearButton="true"
+                        app:met_floatingLabel="highlight"
+                        app:met_iconLeft="@drawable/password"
+                        app:met_iconPadding="0dp"
+                        app:met_maxCharacters="15"
+                        app:met_minCharacters="6"
+                        app:met_primaryColor="?colorAccent"
+                        app:met_singleLineEllipsis="true"
+                        app:met_textColorHint="#726d6d" />
+
+                </android.support.v7.widget.CardView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/prBtnKaydet"
+                        style="@style/Button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="20dp"
+                        android:text="Kaydet"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </ScrollView>
+    </LinearLayout>
+</android.support.v4.widget.DrawerLayout>

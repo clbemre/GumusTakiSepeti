@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/profilim"
+            android:checked="false"
+            android:icon="@android:drawable/ic_menu_view"
+            android:title="@string/profilim" />
+
+        <item
+            android:id="@+id/alyans"
+            android:checked="false"
+            android:icon="@android:drawable/ic_dialog_dialer"
+            android:title="@string/alyans" />
+
+        <item
+            android:id="@+id/hayaletKolye"
+            android:checked="false"
+            android:icon="@android:drawable/ic_dialog_dialer"
+            android:title="@string/hayaletKolye" />
+
+        <item
+            android:id="@+id/erkekYuzugu"
+            android:checked="false"
+            android:icon="@android:drawable/ic_dialog_dialer"
+            android:title="@string/erkekYuzugu" />
+
+
+        <item
+            android:id="@+id/siparislerim"
+            android:checked="false"
+            android:icon="@drawable/ic_send_black"
+            android:title="@string/siparislerim" />
+        <item
+            android:id="@+id/sepetim"
+            android:checked="false"
+            android:icon="@drawable/ic_inbox_black"
+            android:title="@string/sepetim" />
+        <item
+            android:id="@+id/firsatlar"
+            android:checked="false"
+            android:icon="@drawable/ic_star_black"
+            android:title="@string/firsatlar" />
+        <item
+            android:id="@+id/iletisim"
+            android:checked="false"
+            android:icon="@drawable/ic_email_black"
+            android:title="@string/iletisim" />
+
+    </group>
+</menu>
